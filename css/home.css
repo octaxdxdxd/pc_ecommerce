@@ -13,7 +13,7 @@
     background-position: center;
     background-size: cover;
     display: flex;
-    height: 525px;
+    height:80vh;
 }
 
 
@@ -40,7 +40,7 @@
     align-items: flex-start;
 }
 
-button.rav4-btn {
+button.learn-btn {
     display: flex;
     width: 240px;
     height: 50px;
@@ -51,21 +51,50 @@ button.rav4-btn {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease;
 }
 
-button.rav4-btn a {
+.learn-btn-a{
     text-decoration: none;
+}
+
+button.learn-btn span {
     font-size: 18px;
     color: black;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     text-align: center;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
     font-weight: 600;
+    position:relative;
+    transition: 0.5s;
 }
 
+button.learn-btn:hover{
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.learn-btn span:after {
+    content: '\00bb';
+    color:black;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .learn-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .learn-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 .hero-pc {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     height: 400px;
     justify-content: center;
@@ -110,6 +139,7 @@ button.transp-btn {
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    transition:0.5s;
 }
 
 button.transp-btn a {
@@ -123,8 +153,13 @@ button.transp-btn a {
     font-weight: 600;
 }
 
+button.transp-btn:hover{
+    background:rgba(255, 255, 255, 1);
+    transition: background 0.5s ease;
+}
+
 .hero-laptop {
-    margin-top: 5rem;
+    margin-top: 1rem;
     display: flex;
     height: 400px;
     justify-content: center;
@@ -332,7 +367,7 @@ nav.active ul li {
 
 nav {
     height: 50px;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 nav .nav-container {
