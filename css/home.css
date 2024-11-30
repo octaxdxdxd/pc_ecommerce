@@ -1,0 +1,638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: 0;
+    border: 0;
+}
+
+.hero-section {
+    background-image: url(../imagini/bg1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 525px;
+}
+
+
+.hero-section h1 {
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.hero-section p {
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+    align-items: flex-start;
+}
+
+button.rav4-btn {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 4rem;
+    color: black;
+    background: #FFF;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+button.rav4-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+}
+
+.hero-pc {
+    margin-top: 5rem;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: #FFDDDD;
+}
+
+.hero-pc h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+    color: black;
+}
+
+.hero-pc p {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.pc-content {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.pc-content img {
+    height: 380px;
+    width: 660px;
+}
+
+button.transp-btn {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 4rem;
+    color: black;
+    background-color: transparent;
+    border: #1D1C1A solid 1px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+button.transp-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+}
+
+.hero-laptop {
+    margin-top: 5rem;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    background-color: #E7EAFF;
+}
+
+.hero-laptop h1 {
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+    color: black;
+}
+
+.hero-laptop p {
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.laptop-content {
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.laptop-content img {
+    height: 380px;
+    width: 660px;
+}
+
+button.transp-btn {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 4rem;
+    color: black;
+    background-color: transparent;
+    border: #1D1C1A solid 1px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+button.transp-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+}
+
+.testimonials {
+    margin-top: 5rem;
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.blocks {
+    margin-top: 3rem;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.block-ex {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: #FFE7E7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonials img {
+    width: 200px;
+    height: 100px;
+}
+
+.testimonials p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.bestsellers {
+    margin-top: 5rem;
+}
+
+.bestsellers h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+footer {
+    background-color: black;
+    max-width: 100%;
+    margin-top: 5rem;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 10rem;
+}
+
+footer .footer-categories {
+    display: flex;
+    gap: 5rem;
+}
+
+footer img.footer-logo {
+    height: 150px;
+}
+
+.footer-colon ul {
+    color: white;
+    list-style-type: none;
+}
+
+.footer-colon h3 {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.footer-colon ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.nav-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+}
+
+.nav-elements.mobile {
+    display: none;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.mobile-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+i.fa-solid.fa-bars.burger-menu {
+    display: none;
+    font-size: 20px;
+}
+
+nav.active .nav-elements.mobile ul {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-top: 80px;
+    padding-bottom: 1rem;
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+
+nav.active ul li {
+    padding: 1rem;
+}
+
+.nav-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    margin: 20px 0;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+nav .nav-container .brand a {
+    display: flex;
+
+    text-decoration: none;
+    align-items: center;
+
+    gap: 15px;
+    padding: 10px 10px 10px 0;
+
+    color: #1D1C1A;
+}
+
+nav .nav-container .brand a i {
+    font-size: 20px;
+}
+
+nav .nav-container .search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding: 0 20px;
+    gap: 10px;
+
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.left-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav .nav-container .search select,
+nav .nav-container .search input {
+    font-weight: bold;
+
+    border: none;
+    background-color: transparent;
+}
+
+hr {
+    border: 1px solid #d3d3d3;
+    opacity: 40%;
+
+    height: 60%;
+}
+
+nav .nav-container .search input {
+    width: 100%;
+}
+
+
+nav .nav-container .search input::placeholder {
+    color: #8F8F88;
+}
+
+nav .nav-container .search i {
+    font-size: 100%;
+
+    color: #8F8F88;
+}
+
+nav .nav-container .pages ul {
+    display: flex;
+
+    height: 100%;
+    align-items: center;
+
+    font-size: 16px;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .nav-container .pages ul .cart .quantity {
+    position: absolute;
+
+    background-color: #D37676;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+
+    margin: -30px 10px;
+
+    /* visibility: hidden; */
+}
+
+.text-left {
+    margin-left: 2rem;
+}
+
+nav .nav-container .pages ul li a {
+    text-decoration: none;
+    color: #1D1C1A;
+}
+
+.pages {
+    display: flex;
+    justify-content: right;
+}
+
+@media screen and (max-width: 854px) {
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
+
+    .footer-categories {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .hero-pc p {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .pc-content {
+        gap: 3vw;
+    }
+
+    .pc-content img {
+        width: 440px;
+        height: 253px;
+    }
+
+    .hero-pc p {
+        width: 90%;
+    }
+
+    .laptop-content {
+        gap: 3vw;
+    }
+
+    .laptop-content img {
+        width: 440px;
+        height: 253px;
+    }
+
+    .hero-section h1 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .pc-content h1 {
+        font-size: 36px;
+    }
+
+    .pc-content p {
+        font-size: 16px;
+    }
+
+    .laptop-content h1 {
+        font-size: 36px;
+    }
+
+    .laptop-content p {
+        font-size: 16px;
+    }
+
+    .blocks {
+        gap: 2rem;
+    }
+
+    .left-nav {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .pc-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text-right {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .nav-elements ul {
+        display: none;
+    }
+
+    .nav-elements.mobile {
+        display: block;
+    }
+
+    nav .nav-container .pages {
+        display: none;
+    }
+
+    i.fa-solid.fa-bars.burger-menu {
+        display: block;
+    }
+
+    .text-right p {
+        width: 80%;
+        text-align: center;
+    }
+
+    .laptop-content {
+        flex-direction: column-reverse;
+    }
+
+    .text-left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-left p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .pc-content img {
+        width: 334px;
+        height: 191px;
+    }
+
+    .laptop-content img {
+        width: 334px;
+        height: 191px;
+    }
+
+    button.transp-btn {
+        margin-top: 0.5rem;
+    }
+
+    .laptop-content {
+        justify-content: center;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .hero-section p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hero-laptop {
+        height: 500px;
+    }
+
+    .pc-content {
+        justify-content: center;
+    }
+
+    .hero-pc {
+        height: 500px;
+    }
+
+    .hero-section h1 {
+        font-size: 24px;
+    }
+
+    .hero-section p {
+        font-size: 16px;
+    }
+
+    * {
+        overflow-x: hidden;
+    }
+}

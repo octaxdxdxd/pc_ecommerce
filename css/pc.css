@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: 0;
+    border: 0;
+    /* overflow-x: hidden;  */
+}
+
+.hero-section {
+    background-image: url(../imagini/nvidia.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 525px;
+    margin-top:5rem;
+}
+
+
+.hero-section h1 {
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+}
+
+.hero-section p {
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    max-width: 100%;
+}
+
+footer .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 10rem;
+}
+
+footer .footer-categories {
+    display: flex;
+    gap: 5rem;
+}
+
+footer img.footer-logo {
+    height: 150px;
+}
+
+.footer-colon ul {
+    color: white;
+    list-style-type: none;
+}
+
+.footer-colon h3 {
+    color: white;
+    padding-bottom: 5px;
+}
+
+.footer-colon ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.nav-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.nav-elements {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 50px;
+    margin: 20px 0;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav .nav-container .brand a {
+    display: flex;
+
+    text-decoration: none;
+    align-items: center;
+
+    gap: 15px;
+    padding: 10px 10px 10px 0;
+
+    color: #1D1C1A;
+}
+
+nav .nav-container .brand a i {
+    font-size: 20px;
+}
+
+nav .nav-container .search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding: 0 20px;
+    gap: 10px;
+
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.left-nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav .nav-container .search select,
+nav .nav-container .search input {
+    font-weight: bold;
+
+    border: none;
+    background-color: transparent;
+}
+
+hr {
+    border: 1px solid #d3d3d3;
+    opacity: 40%;
+
+    height: 60%;
+}
+
+nav .nav-container .search input {
+    width: 100%;
+}
+
+
+nav .nav-container .search input::placeholder {
+    color: #8F8F88;
+}
+
+nav .nav-container .search i {
+    font-size: 100%;
+
+    color: #8F8F88;
+}
+
+nav .nav-container .pages ul {
+    display: flex;
+
+    height: 100%;
+    align-items: center;
+
+    font-size: 16px;
+    gap: 20px;
+    list-style: none;
+}
+
+nav .nav-container .pages ul .cart .quantity {
+    position: absolute;
+
+    background-color: #D37676;
+
+    width: 20px;
+    height: 20px;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+
+    margin: -30px 10px;
+
+    /* visibility: hidden; */
+}
+
+nav .nav-container .pages ul li a {
+    text-decoration: none;
+    color: #1D1C1A;
+}
+
+@media screen and (max-width: 854px) {
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+    }
+
+    .footer-categories {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .hero-section {
+        background-position-x: right;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .hero-section {
+        background-position-x: center;
+    }
+}
+
+@media screen and (max-width:505px) {
+    .hero-section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-section h1 {
+        font-size: 40px;
+        margin-right: 0.5rem;
+    }
+
+    .hero-section p {
+        font-size: 20px;
+        margin-right: 3rem;
+    }
+
+    /* *{
+        overflow-x: hidden;
+    } */
+}

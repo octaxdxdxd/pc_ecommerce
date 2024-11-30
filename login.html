@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/login.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/pc.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/home.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="left-nav">
+                <div class="brand">
+                    <a href="home.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h3>Lenny.</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-elements">
+                <ul>
+                    <li><a href="pc.html">Gaming PCs</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-elements mobile">
+                <ul>
+                    <li><a href="pc.html">Gaming PCs</a></li>
+                    <li><a href="delivery.html">Delivery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <div class="mobile-btns">
+                        <li class="login">
+                            <a href="login.html"><i class="fa-solid fa-user" style="color: #000000;"></i></a>
+                        </li>
+                        <li class="cart">
+                            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </li>
+                    </div>
+                </ul>
+                <i class="fa-solid fa-bars burger-menu"></i>
+            </div>
+
+
+            <div class="pages">
+                <ul>
+                    <li class="login">
+                        <a href="login.html"><i class="fa-solid fa-user" style="color: #000000;"></i></a>
+                    </li>
+                    <li class="cart">
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container flex flex-col md:flex-row">
+        <div class="sections-2 mt-12 flex justify-between gap-20">
+            <div class="form-left w-fit ml-40">
+                <form action="#">
+                    <div class="user-details flex justify-between items-center">
+                        <div class="title text-4xl font-bold">ID REGISTRATION</div>
+                        <div class="input-box my-10 mb-3">
+                            <span class="details grid mb-2">Full Name</span>
+                            <input type="text" placeholder="John Boeing" required
+                                class="h-12 w-90 outline-none rounded-2xl border border-black pl-4 text-lg transition-all ease-in-out duration-300 shadow-md focus:border-purple-500 valid:border-purple-500">
+                        </div>
+                        <div class="input-box my-10 mb-3">
+                            <span class="details grid mb-2">Email</span>
+                            <input type="email" placeholder="johnboeing747@gmail.com" required
+                                class="h-12 w-90 outline-none rounded-2xl border border-black pl-4 text-lg transition-all ease-in-out duration-300 shadow-md focus:border-purple-500 valid:border-purple-500">
+                        </div>
+                        <div class="input-box my-10 mb-3">
+                            <span class="details grid mb-2">Password</span>
+                            <input type="password" placeholder="********" required
+                                class="h-12 w-90 outline-none rounded-2xl border border-black pl-4 text-lg transition-all ease-in-out duration-300 shadow-md focus:border-purple-500 valid:border-purple-500">
+                        </div>
+                        <div class="check">
+                            <input type="checkbox" class="w-4 h-4 mt-2.5">
+                            <span class="details ml-2">I have read and accept the <b><a href="#">Terms and
+                                        Conditions*</a></b></span>
+                        </div>
+                        <div class="button h-13 my-11 mt-8 cursor-pointer">
+                            <a href="#"><input type="submit" value="Register Now"
+                                    class="h-full w-90 text-white text-lg font-medium bg-blue-600 rounded-2xl shadow-md hover:bg-black"></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="banner-right flex w-auto h-[900px] rounded-tl-2xl">
+                <img src="imagini/render.png" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <img class="footer-logo" src="imagini/strix.png" alt="">
+            <div class="footer-categories">
+                <div class="footer-colon">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="pc.html">Gaming PCs</a></li>
+                        <li><a href="laptop.html">Gaming Laptops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-colon">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="delivery.html">Shipping Details</a></li>
+                    </ul>
+                </div>
+                <div class="social-media"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

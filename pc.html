@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/pc.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="left-nav">
+                <div class="brand">
+                    <a href="home.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h3>Lenny.</h3>
+                    </a>
+                </div>
+
+                <div class="search">
+                    <input class="category_search" type="text" placeholder="Search on lenny ...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+            </div>
+            <div class="pages">
+                <ul>
+                    <li class="cart">
+                        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Gaming PCs</h1>
+            <p>The Best Gaming PCs Out There</p>
+        </div>
+    </section>
+
+    <section class="main-wrapper">
+        <div class="main-container-product">
+            <aside class="total-price">
+                <div class="summary">
+                    <h4>Filter</h4>
+                    <a href="#" id="clear-filters">Eliminate All Filters</a>
+                </div>
+                <hr class="divider">
+                <form class="filters price-per-day">
+                    <ul>
+                        <h4>Price</h4> <br>
+                        <li>
+                            <input type="checkbox" id="price-0-700" value="0-700">
+                            <label for="price-0-700">0 EUR - 700 EUR</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="price-700-1000" value="700-1000">
+                            <label for="price-700-1000">700 EUR - 1000 EUR</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="price-1000-1500" value="1000-1500">
+                            <label for="price-1000-1500">1000 EUR - 1500 EUR</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="price-1500" value="1500">
+                            <label for="price-1500">1500+ EUR</label>
+                        </li>
+                    </ul>
+                </form>
+                <hr class="divider">
+                <form class="filters pc-type">
+                    <ul>
+                        <h4>PC Type</h4> <br>
+                        <li>
+                            <input type="checkbox" id="category-gaming" value="Gaming">
+                            <label for="category-gaming">Gaming</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="category-workstation" value="Workstation">
+                            <label for="category-workstation">Workstation</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="category-all-in-one" value="All-in-One">
+                            <label for="category-all-in-one">All-in-One</label>
+                        </li>
+                    </ul>
+                </form>
+                <hr class="divider">
+                <form class="filters ram">
+                    <ul>
+                        <h4>RAM Size</h4> <br>
+                        <li>
+                            <input type="checkbox" id="ram-8" value="8">
+                            <label for="ram-8">8GB DDR4</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ram-16" value="16">
+                            <label for="ram-16">16GB DDR4</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ram-32" value="32">
+                            <label for="ram-32">32GB DDR4</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="ram-64" value="64">
+                            <label for="ram-64">64GB DDR4</label>
+                        </li>
+                    </ul>
+                </form>
+                <hr class="divider">
+                <form class="filters gpu-brand">
+                    <ul>
+                        <h4>GPU Brand</h4> <br>
+                        <li>
+                            <input type="checkbox" id="gpu-brand-nvidia" value="NVIDIA">
+                            <label for="gpu-brand-nvidia">NVIDIA</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="gpu-brand-amd" value="AMD">
+                            <label for="gpu-brand-amd">AMD</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="gpu-brand-intel" value="Intel">
+                            <label for="gpu-brand-intel">Intel</label>
+                        </li>
+                    </ul>
+                </form>
+                <hr class="divider">
+                <form class="filters cpu-brand">
+                    <ul>
+                        <h4>CPU Brand</h4> <br>
+                        <li>
+                            <input type="checkbox" id="cpu-brand-intel" value="Intel">
+                            <label for="cpu-brand-intel">Intel</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="cpu-brand-amd" value="AMD">
+                            <label for="cpu-brand-amd">AMD</label>
+                        </li>
+                    </ul>
+                </form>
+                <br>
+            </aside>
+
+            <div class="main-content">
+                <i class="fa-solid fa-filter"></i>
+                <section class="container" id="container"></section>
+                <div class="pages-container"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <img class="footer-logo" src="imagini/strix.png" alt="">
+            <div class="footer-categories">
+                <div class="footer-colon">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="pc.html">Gaming PCs</a></li>
+                        <li><a href="laptop.html">Gaming Laptops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-colon">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="delivery.html">Shipping Details</a></li>
+                    </ul>
+                </div>
+                <div class="social-media"></div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/script-pc.js"></script>
+    <script type="module" src="js/allproducts.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
