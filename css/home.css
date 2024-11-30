@@ -104,22 +104,23 @@ button.learn-btn:hover{
 .hero-pc h1 {
     font-size: 48px;
     font-weight: 800;
-    text-align: left;
+    text-align: right;
     color: black;
 }
+
 
 .hero-pc p {
     font-size: 24px;
     font-weight: 400;
     color: black;
-    text-align: left;
+    text-align: right;
     text-shadow: 10px 20px 30px rgba(0, 0, 0, 0.25);
 }
 
 .pc-content {
     display: flex;
     align-items: center;
-    gap: 10vw;
+    gap: 5vw;
 }
 
 .pc-content img {
@@ -140,6 +141,12 @@ button.transp-btn {
     justify-content: center;
     align-items: center;
     transition:0.5s;
+}
+
+.hero-btns-pc{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 button.transp-btn a {
@@ -486,6 +493,11 @@ nav .nav-container .pages ul li a {
     justify-content: right;
 }
 
+.text-right{
+    margin-right:2rem;
+    width:30vw;
+}
+
 @media screen and (max-width: 854px) {
     footer .footer-content {
         flex-direction: column;
@@ -500,24 +512,21 @@ nav .nav-container .pages ul li a {
 }
 
 @media screen and (min-width:1600px) {
-    .hero-pc p {
+    /* .hero-pc p {
         width: 70%;
-    }
+    } */
 }
 
 @media screen and (max-width:1600px) {
-    .pc-content {
-        gap: 3vw;
-    }
 
     .pc-content img {
         width: 440px;
         height: 253px;
     }
 
-    .hero-pc p {
+    /* .hero-pc p {
         width: 90%;
-    }
+    } */
 
     .laptop-content {
         gap: 3vw;
@@ -566,6 +575,11 @@ nav .nav-container .pages ul li a {
         flex-direction: column;
         align-items: center;
     }
+
+    .text-right{
+        margin-right:2rem;
+        width:auto;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -581,6 +595,9 @@ nav .nav-container .pages ul li a {
         align-items: center;
     }
 
+    .pc-content {
+        gap: 3vw;
+    }
 
     .nav-elements ul {
         display: none;

@@ -7,13 +7,13 @@
     border: 0;
 }
 
-.hero-section {
+.contact-hero {
     background-image: url(../imagini/contact-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
-    height: 525px;
+    height: 400px;
 }
 
 .hero-content {

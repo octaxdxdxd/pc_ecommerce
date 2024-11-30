@@ -257,20 +257,32 @@ nav .nav-container .pages ul li a {
     }
 }
 
-@media screen and (max-width:505px) {
+@media (min-width:500px) and (max-width:700px){
+    .hero-section h1 {
+        font-size: 35px!important;
+    }
+
+    .hero-section p {
+        font-size: 25px!important;
+    }
+}
+
+@media screen and (max-width:700px) {
     .hero-section {
         justify-content: center;
         align-items: center;
     }
 
+    .hero-content{
+        margin-left:0rem;
+    }
+
     .hero-section h1 {
-        font-size: 40px;
-        margin-right: 0.5rem;
+        font-size: 25px;
     }
 
     .hero-section p {
-        font-size: 20px;
-        margin-right: 3rem;
+        font-size: 15px;
     }
 
     /* *{

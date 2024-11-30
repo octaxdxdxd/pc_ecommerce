@@ -56,6 +56,88 @@ body {
     width: 100%;
 }
 
+.empty-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.shop-btn {
+    display: flex;
+    width: 240px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+    background: #000000;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.shop-btn-a{
+    text-decoration: none;
+}
+
+button.shop-btn span {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    position:relative;
+    transition: 0.5s;
+}
+
+button.shop-btn:hover{
+    background: rgba(0, 0, 0, 0.95);
+}
+
+.shop-btn span:after {
+    content: '\00bb';
+    color:rgb(255, 255, 255);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .shop-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .shop-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.empty-message p{
+    font-size:32px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.empty-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.empty-flex img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:256px;
+    height:256px;
+}
+
 .total-price {
     border-radius: 16px;
     height: fit-content;
@@ -294,7 +376,6 @@ svg {
 
 .pc-price {
     margin: 20px 0px;
-    margin-right: 3rem;
     font-size: 24px;
     font-weight: 600;
     display: flex;

@@ -25,21 +25,18 @@
 } */
 
 .sections-2{
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
-    gap:5rem;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
     font-size: 36px;
-    font-weight: bolder;
     font-weight: 400;
-}
-
-.form-left{
-    width:fit-content;
-    margin-left:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form .user-details .input-box {
@@ -91,7 +88,6 @@ form .user-details .input-box {
 
 form .button {
     height: 52px;
-    margin: 45px 0;
     cursor: pointer;
     margin-top: 2rem;
 }
